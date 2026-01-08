@@ -1,3 +1,4 @@
+30
 import streamlit as st
 import google.generativeai as genai
 import json
@@ -25,8 +26,8 @@ if not api_key:
 # Configure Gemini
 try:
     genai.configure(api_key=api_key)
-    # Use gemini-1.5-flash (more stable, better quota)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    # Use gemini-2.5-flash (more stable, better quota)
+    model = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e:
     st.error(f"❌ API Configuration Error: {str(e)}")
     st.stop()

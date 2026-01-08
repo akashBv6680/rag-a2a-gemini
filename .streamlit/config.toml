@@ -8,20 +8,3 @@ level = "info"
 primaryColor = "#1f77b4"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
-
-[server]
-port = 8501
-enableXsrfProtection = true
-maxUploadSize = 200
-requestHeadersToLog = []
-
-[client]
-toolbarMode = "viewer"
-
-[browser]
-serverAddress = "localhost"
-
-[browser]
-gatherUsageStats = false
